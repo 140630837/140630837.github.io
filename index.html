@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style1.css">
+<title>stealthy woooosh nyoom</title>
+<div class="a">
+<h1>
+<br> Website about Stealth in Aircraft<br>
+</h1>
+</div>
+</head>
+
+<body> 
+<hr style="width:500;color:gainsboro">
+
+<hr>
+<div>
+<h2> this is a website all about stealth in aircraft, the information on this website should be taken with a grain of salt, since a lot of the fun stealth stuff is classified (boring) so this is all publically available info </h2> 
+</div>
+
+<marquee>
+<img src="zoom.jpg">
+</marquee>
+
+<hr>
+
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
+<hr>
+
+<a href="radar.html">Visit a different page to learn about how radar itself actually works</a>   <p>-    -    -</p>   <a href="stealth.html">Visit a page on how to avoid said radar</a>
+
+<hr>

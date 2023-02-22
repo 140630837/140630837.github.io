@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+	background-color: MintCream;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+a:link, a:visited{
+	color: sandybrown;
+	text-decoration: underline;
+}
+
+div.a {
+	text-align: center;
+}
+<hr style="width:500;color:gainsboro">
